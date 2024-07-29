@@ -1,0 +1,99 @@
+{
+    "questions": [
+        {
+    "questionText": "Who was the first black South Afican international rugby captain?",
+    "options": [
+        {
+        "text": "Akhona Ndungane"
+    },
+    {
+        "text": "Aphelele Fassie"
+    },
+    {
+        "text": "Siyamthanda Kolisi",
+        "correct": true
+    },
+    {
+        "text": "Bakkies Botha"
+    }
+    ],
+    "explanation": "Siyamthanda Kolisi was the first black springboks captain."
+},
+{
+    "questionText": "Who was the first player to ever score a try in the springboks team in a RWC final match?",
+    "options": [
+        {
+        "text": "Bryan Habana"
+    },
+    {
+        "text": "Makazole Mapimpi",
+        "correct": true
+    },
+    {
+        "text": "Joost Van Der Westhuizen"
+    },
+    {
+        "text": "Victor Matfield"
+    }
+],
+    "explanation": "Makazole Mapimpi was the first player to ever score a try in the 2019 RWC final match in the history of the springboks!"
+},
+{
+    "questionText": "Which is the first rugby team to win the Rugby World Cup four times?",
+    "options": [
+        {
+        "text": "New Zealand"
+    },
+    {
+        "text": "England"
+    },
+    {
+        "text": "Australia"
+    },
+    {
+        "text": "South Africa",
+        "correct": true
+    }
+],
+    "explanation": "South Africa was the first nation to win the Rugby World Cup four times."
+},
+{
+    "questionText": "Which world cup final year did the Springboks beat the All Blacks by 3 points?",
+    "options": [
+        {
+        "text": "1995",
+        "correct": true
+    },
+    {
+        "text": "2007"
+    },
+    {
+        "text": "2019"
+    },
+    {
+        "text": "2023"
+    }
+],
+    "explanation": "The Springboks beat the All Blacks by 3 points in the 1995 RWC final."
+},
+{
+    "questionText": "What is the worst defeat the Springboks have suffered in the last 10 years?",
+    "options": [
+        {
+        "text": "England (3-53)"
+    },
+    {
+        "text": "AUstralia (0-49)"
+    },
+    {
+        "text": "New Zealand (0-57)",
+        "correct": true
+    },
+    {
+        "text": "Japan (32-34)"
+    }
+],
+    "explanation": "(57-0) was the Springboks worst defeat in the last 10 years"
+
+}]
+    } 
