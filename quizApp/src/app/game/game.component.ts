@@ -13,7 +13,7 @@ export class GameComponent implements OnInit {
   public questionList : any = [];
   public currentQuestion: number = 0;
   public points : number = 0;
-  counter = 30;
+  counter = 120;
   correctAnswer : number = 0;
   incorrectAnswer : number = 0;
   interval$ : any;
@@ -45,7 +45,7 @@ export class GameComponent implements OnInit {
         this.currentQuestion++;
         this.resetCounter();
         this.getProgressPercent();
-      }, 1000);
+      }, 3000);
       this.currentQuestion++;
       this.resetCounter();
       this.getProgressPercent();
@@ -55,9 +55,9 @@ export class GameComponent implements OnInit {
         this.incorrectAnswer++;
         this.resetCounter();
         this.getProgressPercent();
-      }, 1000);
+      }, 3000);
 
-      this.points -= 5;
+      
     }
   }
   startCounter() {
@@ -66,13 +66,12 @@ export class GameComponent implements OnInit {
       this.counter--;
       if(this.counter===0) {
         this.currentQuestion++;
-        this.counter = 30;
-        this.points -= 5;
+        this.counter = 120;
       }
     });
     setTimeout(() => {
       this.interval$.unsubcribe();
-    }, 150000);
+    }, 1000000);
   }
   stopCounter() {
     this.interval$.unsubcribe();
@@ -80,14 +79,14 @@ export class GameComponent implements OnInit {
   }
   resetCounter() {
     this.stopCounter();
-    this.counter = 30;
+    this.counter = 120;
     this.startCounter();
   }
   resetQuiz() {
     this.resetCounter();
     this.getAllQuestions();
     this.points = 0;
-    this.counter = 30;
+    this.counter = 120;
     this.currentQuestion = 0;
   }
 

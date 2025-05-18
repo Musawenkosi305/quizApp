@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { GameComponent } from './game/game.component';
-import { HeaderComponent } from './header/header.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ChangeBgDirective } from './change-bg.directive';
 
@@ -14,7 +13,6 @@ import { ChangeBgDirective } from './change-bg.directive';
     AppComponent,
     SideBarComponent,
     GameComponent,
-    HeaderComponent,
     ChangeBgDirective
   ],
   imports: [
